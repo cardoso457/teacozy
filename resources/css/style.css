@@ -4,7 +4,6 @@ body{
   color: seashell;
   font-size: 22px;
   font-family: "Helvetica", sans-serif;
-  opacity: 0.9;
   text-align: center;
 }
 
@@ -16,13 +15,11 @@ header{
   position: fixed;
   z-index: 1;
   width: 100%;
-  width: 100%;
   height: 78px;
   position: fixed;
   border-bottom: 1px solid seashell;
   background-color: black;
 }
-
 
 .logo{
 display:flex;
@@ -44,6 +41,7 @@ nav a{
   position: relative;
   margin-right: 15px;
   font-size: 22px;
+  opacity: 0.9;
 }
 
 /*CONTAINER*/
@@ -62,11 +60,13 @@ color: seashell;
 h2{
   padding-top: 8px;
   color: seashell;
+  opacity: 0.9;
 }
 
 h4{
   padding-bottom: 8px;
   color: seashell;
+  opacity: 0.9;
 }
 
 /*Menu Section*/
@@ -112,6 +112,7 @@ h4{
   width: 1200px;
   height: 500px;
   margin: 530px 120px 15px 120px;
+
 }
 
 
@@ -119,11 +120,10 @@ h4{
   position: relative;
   bottom: 760px;
   color: seashell;
+  opacity: 0.9;
 }
 
-
 .box{
-
   position: relative;
   bottom: 760px;
 }
@@ -136,6 +136,7 @@ h4{
   margin: 0 auto;
   margin-right: 15px;
   padding-top: 25px;
+  opacity: 0.9;
 }
 
 .box-1 h4{
@@ -146,10 +147,9 @@ h4{
 /*Footer*/
 
 .tea-footer{
-  flex-direction: column;
   width: 100%;
   height: 200px;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .tea-footer h2{
